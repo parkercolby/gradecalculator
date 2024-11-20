@@ -7,7 +7,7 @@ def main():
     print("2. Assignment statistics")
     print("3. Assignment graph")
 
-    choice = int(input("Enter your selections: "))
+    choice = int(input("Enter your selection: "))
     if choice == 1:
         name = input("What is the student's name: ")
         file = open("data/students.txt", "r")
